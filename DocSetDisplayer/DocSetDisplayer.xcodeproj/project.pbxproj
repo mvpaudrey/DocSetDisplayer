@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A36F9B5415A723D200F1CFE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36F9B5315A723D200F1CFE8 /* UIKit.framework */; };
+		A36F9B5615A723D200F1CFE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36F9B5515A723D200F1CFE8 /* Foundation.framework */; };
+		A36F9B5815A723D200F1CFE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36F9B5715A723D200F1CFE8 /* CoreGraphics.framework */; };
+		A36F9B5E15A723D200F1CFE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A36F9B5C15A723D200F1CFE8 /* InfoPlist.strings */; };
+		A36F9B6015A723D200F1CFE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A36F9B5F15A723D200F1CFE8 /* main.m */; };
+		A36F9B6415A723D200F1CFE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A36F9B6315A723D200F1CFE8 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A36F9B4F15A723D200F1CFE8 /* DocSetDisplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocSetDisplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36F9B5315A723D200F1CFE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A36F9B5515A723D200F1CFE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A36F9B5715A723D200F1CFE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A36F9B5B15A723D200F1CFE8 /* DocSetDisplayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DocSetDisplayer-Info.plist"; sourceTree = "<group>"; };
+		A36F9B5D15A723D200F1CFE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A36F9B5F15A723D200F1CFE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A36F9B6115A723D200F1CFE8 /* DocSetDisplayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DocSetDisplayer-Prefix.pch"; sourceTree = "<group>"; };
+		A36F9B6215A723D200F1CFE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A36F9B6315A723D200F1CFE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A36F9B4C15A723D200F1CFE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36F9B5415A723D200F1CFE8 /* UIKit.framework in Frameworks */,
+				A36F9B5615A723D200F1CFE8 /* Foundation.framework in Frameworks */,
+				A36F9B5815A723D200F1CFE8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A36F9B4415A723D200F1CFE8 = {
+			isa = PBXGroup;
+			children = (
+				A36F9B5915A723D200F1CFE8 /* DocSetDisplayer */,
+				A36F9B5215A723D200F1CFE8 /* Frameworks */,
+				A36F9B5015A723D200F1CFE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A36F9B5015A723D200F1CFE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36F9B4F15A723D200F1CFE8 /* DocSetDisplayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A36F9B5215A723D200F1CFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A36F9B5315A723D200F1CFE8 /* UIKit.framework */,
+				A36F9B5515A723D200F1CFE8 /* Foundation.framework */,
+				A36F9B5715A723D200F1CFE8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A36F9B5915A723D200F1CFE8 /* DocSetDisplayer */ = {
+			isa = PBXGroup;
+			children = (
+				A36F9B6215A723D200F1CFE8 /* AppDelegate.h */,
+				A36F9B6315A723D200F1CFE8 /* AppDelegate.m */,
+				A36F9B5A15A723D200F1CFE8 /* Supporting Files */,
+			);
+			path = DocSetDisplayer;
+			sourceTree = "<group>";
+		};
+		A36F9B5A15A723D200F1CFE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A36F9B5B15A723D200F1CFE8 /* DocSetDisplayer-Info.plist */,
+				A36F9B5C15A723D200F1CFE8 /* InfoPlist.strings */,
+				A36F9B5F15A723D200F1CFE8 /* main.m */,
+				A36F9B6115A723D200F1CFE8 /* DocSetDisplayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A36F9B4E15A723D200F1CFE8 /* DocSetDisplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36F9B6715A723D200F1CFE8 /* Build configuration list for PBXNativeTarget "DocSetDisplayer" */;
+			buildPhases = (
+				A36F9B4B15A723D200F1CFE8 /* Sources */,
+				A36F9B4C15A723D200F1CFE8 /* Frameworks */,
+				A36F9B4D15A723D200F1CFE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocSetDisplayer;
+			productName = DocSetDisplayer;
+			productReference = A36F9B4F15A723D200F1CFE8 /* DocSetDisplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A36F9B4615A723D200F1CFE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "TELECOM Saint-Etienne";
+			};
+			buildConfigurationList = A36F9B4915A723D200F1CFE8 /* Build configuration list for PBXProject "DocSetDisplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A36F9B4415A723D200F1CFE8;
+			productRefGroup = A36F9B5015A723D200F1CFE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A36F9B4E15A723D200F1CFE8 /* DocSetDisplayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A36F9B4D15A723D200F1CFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36F9B5E15A723D200F1CFE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36F9B4B15A723D200F1CFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36F9B6015A723D200F1CFE8 /* main.m in Sources */,
+				A36F9B6415A723D200F1CFE8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A36F9B5C15A723D200F1CFE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A36F9B5D15A723D200F1CFE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A36F9B6515A723D200F1CFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A36F9B6615A723D200F1CFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A36F9B6815A723D200F1CFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DocSetDisplayer/DocSetDisplayer-Prefix.pch";
+				INFOPLIST_FILE = "DocSetDisplayer/DocSetDisplayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A36F9B6915A723D200F1CFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DocSetDisplayer/DocSetDisplayer-Prefix.pch";
+				INFOPLIST_FILE = "DocSetDisplayer/DocSetDisplayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A36F9B4915A723D200F1CFE8 /* Build configuration list for PBXProject "DocSetDisplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36F9B6515A723D200F1CFE8 /* Debug */,
+				A36F9B6615A723D200F1CFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36F9B6715A723D200F1CFE8 /* Build configuration list for PBXNativeTarget "DocSetDisplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36F9B6815A723D200F1CFE8 /* Debug */,
+				A36F9B6915A723D200F1CFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A36F9B4615A723D200F1CFE8 /* Project object */;
+}
